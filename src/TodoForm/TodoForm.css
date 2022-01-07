@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 80%;
+  max-width: 400px;
+  height: 40vh;
+  padding: 30px;
+  text-align: center;
+  color: black;
+}
+.form label {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.form textarea {
+  width: 100%;
+  min-height: 90px;
+  border: 1px solid var(--color4);
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+}
+.div-btn {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-cancel {
+  background-color: transparent;
+}
+.btn-añadir {
+  background-color: var(--color4);
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+}
